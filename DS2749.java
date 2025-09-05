@@ -1,5 +1,4 @@
 public class DS2749 {
-
     public int makeTheIntegerZero(int num1, int num2) {
         int k = 1;
         while (true) {
@@ -12,6 +11,9 @@ public class DS2749 {
             }
             k++;
         }
+    }
+    public static void main(String[] args) {
+        
     }
 }
 

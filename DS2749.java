@@ -13,7 +13,8 @@ public class DS2749 {
         }
     }
     public static void main(String[] args) {
-        
+        DS2749 obj = new DS2749();
+        System.out.println(obj.makeTheIntegerZero(3, -2));
     }
 }
 

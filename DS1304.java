@@ -8,7 +8,11 @@ public class DS1304 {
     }
     public static void main(String[] args) {
         DS1304 obj = new DS1304();
-        System.out.println(obj.sumZero(3));
+        int n = 5;
+        for(int i=0;i<n;i++){
+            System.out.println(obj.sumZero(i)+" ");
+        }
+        
     }
 }
 

@@ -11,7 +11,10 @@ public class DS1317 {
     }
     public static void main(String[] args) {
         DS1317 obj = new DS1317();
-        System.out.println(obj.getNoZeroIntegers(2));
+        int arr [] = obj.getNoZeroIntegers(11);
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
     }
 }
 

@@ -6,6 +6,7 @@ public class DS1304 {
             res[i] = i;
         return res;
     }
+    //main Function
     public static void main(String[] args) {
         DS1304 obj = new DS1304();
         int n [] = obj.sumZero(5);

@@ -18,6 +18,8 @@ public class DS2327 {
         
         return (int)know;
     }
-    
+    public static void main(String[] args) {
+        
+    }
 }
 

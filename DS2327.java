@@ -19,7 +19,9 @@ public class DS2327 {
         return (int)know;
     }
     public static void main(String[] args) {
-        
+        DS2327 obj = new DS2327();
+        System.out.println(obj.peopleAwareOfSecret(6, 2, 4));
+
     }
 }
 

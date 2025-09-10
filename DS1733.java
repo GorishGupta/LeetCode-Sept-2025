@@ -39,7 +39,11 @@ public int minimumTeachings(int n, int[][] languages, int[][] friendships) {
         return ans;
     }
     public static void main(String[] args) {
-        
+        DS1733 obj = new DS1733();
+        int arr[][] = {{1},{2},{1,2}};
+        int arr1[][] = {{1,2},{1,3},{2,3}};
+        System.out.println(obj.minimumTeachings(2, arr, arr1));
+
     }
 }
 

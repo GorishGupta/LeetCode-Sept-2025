@@ -35,4 +35,9 @@ public class DS2785 {
         
         return ans.toString();
     }
-};}
+    public static void main(String[] args) {
+        DS2785 obj = new DS2785();
+        String s = "lEetcOde";
+        System.out.println(obj.sortVowels(s));
+    }
+}

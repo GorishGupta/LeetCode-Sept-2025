@@ -1,5 +1,9 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class DS966 {
-     class Solution {
     Set<String> words_perfect;
     Map<String, String> words_cap;
     Map<String, String> words_vow;
@@ -52,3 +56,4 @@ public class DS966 {
         return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
     }
 }
+

@@ -55,5 +55,11 @@ public class DS966 {
     public boolean isVowel(char c) {
         return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
     }
+    public static void main(String[] args) {
+        DS966 obj = new DS966();
+        String wordlist[] = {"yellow"};
+        String queries []= {"YellOw"};
+        System.out.println(obj.spellchecker(wordlist, queries));
+    }
 }
 

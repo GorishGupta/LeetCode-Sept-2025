@@ -21,4 +21,9 @@ public class DS1935 {
 
         return words.length - count;
     }
+    public static void main(String[] args) {
+        DS1935 obj = new DS1935();
+        String text = "hello world", brokenLetters = "ad" ;
+        System.out.println(obj.canBeTypedWords(text, brokenLetters));
+    }
 }

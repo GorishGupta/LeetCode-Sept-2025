@@ -26,5 +26,11 @@ public class Ds2197 {
         if (b == 0) return a;
         return gcd(b, a % b);
     }
+    public static void main(String[] args) {
+        Ds2197 obj = new Ds2197();
+        int nums[] = {6,4,3,2,7,6,2};
+        List<Integer> ll = obj.replaceNonCoprimes(nums);
+        System.out.println(ll);
+    }
 }
 

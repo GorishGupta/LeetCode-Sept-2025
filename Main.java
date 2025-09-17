@@ -1,5 +1,6 @@
-public class DS2353 {
-    class Food implements Comparable<Food> {
+import java.util.*;
+
+class Food implements Comparable<Food> {
     // Store the food's rating.
     public int foodRating;
     // Store the food's name.
@@ -69,4 +70,19 @@ class FoodRatings {
         return highestRated.foodName;
     }
 }
-}
+public class Main{
+public static void main(String[] args) {
+ String[] foods = {"sushi", "ramen", "burger", "taco"};
+        String[] cuisines = {"japanese", "japanese", "american", "mexican"};
+        int[] ratings = {5, 7, 8, 6};
+
+        FoodRatings foodRatings = new FoodRatings(foods, cuisines, ratings);
+
+        System.out.println("Highest rated Japanese: " + foodRatings.highestRated("japanese")); // ramen
+        System.out.println("Highest rated American: " + foodRatings.highestRated("american")); // burger
+
+        // Change rating
+        foodRatings.changeRating("sushi", 9);
+        System.out.println("Highest rated Japanese after update: " + foodRatings.highestRated("japanese")); // sushi
+    
+}}

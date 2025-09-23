@@ -13,6 +13,10 @@ class DS165 {
         return 0;
     }
     public static void main(String[] args) {
+        DS165 obj = new DS165();
+        String version1 = "1.2", version2 = "1.10";
+        System.out.println(obj.compareVersion(version1, version2));
+
         
     }
 }

@@ -1,3 +1,5 @@
+
+import java.util.*;
 public class DS1039 {
     int dp[][];
     public int minScoreTriangulation(int[] values) {
@@ -25,6 +27,11 @@ public class DS1039 {
         }
         
         return dp[i][j] = mini;
+    }
+    public static void main(String[] args) {
+        DS1039 obj =new DS1039();
+        int arr[] = {1,2,3};
+        System.out.println(obj.minScoreTriangulation(arr));
     }
 }
 
